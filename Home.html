@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Materials and Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Compiled and Minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Home</title>
+</head>
+<body class="black">
+    <!--Extended Navigation Bar-->
+    <div class="navbar-fixed">
+        <nav class="nav-extended">
+            <div class="nav-wrapper grey darken-4">
+                <div class="container">
+                    <a class="brand-logo center"><img width="65" src="LSDC LOGO (white).png"></a>
+                </div>
+            </div>
+            <div class="nav-content grey darken-4">
+                <ul class="tabs tabs-fixed-width tab-demo z-depth-1 tabs-transparent">
+                    <li class="tab"><a class="waves-effect waves-light" href="Home.html">Home</a></li>
+                    <li class="tab"><a class="waves-effect waves-light" href="About.html">About</a></li>
+                    <li class="tab disabled"><a class="waves-effect waves-light" href="Gallery.html">Gallery</a></li>
+                    <li class="tab"><a class="waves-effect waves-light" href="SocMed.html">More</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--Parallax-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="Parallax 1.jpg"></div>
+    </div>
+    <div class="section black">
+        <div class="row container">
+        <div class="col s8">
+            <h5 class="header white-text">Letran Street Dance Crew is the official dance organization of Colegio de San Juan de Letran Calamba. The crew is composed of talented students from the different departments of the Colegio. With our dance, we entertain our audience and form camaraderie with our fellow Letranites. We live by the principles and values of a true Letranite.</h5>
+            <h5 class="header white-text">Together, we share our talents and skills and show how Letranites battle on the dance floor.</h5></div>
+        <img class="responsive-img" width="275" src="LSDC Logo.png">
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="Parallax 2.jpg"></div>
+    </div>
+    <div class="section black">
+        <div class="row container">
+            <!-- slider -->
+            <div class="slider">
+                <ul class="slides">
+                <li>
+                    <img src="1.jpg">
+                </li>
+                <li>
+                    <img src="2.jpg">
+                </li>
+                <li>
+                    <img src="3.jpg">
+                </li>
+                <li>
+                    <img src="4.jpg">
+                </li>
+                <li>
+                    <img src="5.jpg">
+                </li>
+                <li>
+                    <img src="6.jpg">
+                </li>
+                <li>
+                    <img src="7.jpg">
+                </li>
+                <li>
+                    <img src="9.jpg">
+                </li>
+                <li>
+                    <img src="10.jpg">
+                </li>
+                <li>
+                    <img src="11.jpg">
+                </li>
+                <li>
+                    <img src="12.jpg">
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6">
+                <img width="90" src="logoLetran.png">
+                <img width="100" src="SSD LOGO.png">
+                <img width="100" src="LSDC LOGO (white).png">
+            </div>
+            <div class="col l4 offset-l2">
+            <h5 class="white-text">Social Medias</h5>
+                <ul>
+                    <li>
+                        <i class="material-icons">email</i>
+                        <a class="grey-text text-lighten-3 right">letranstreetdc1989@gmail.com</a>
+                    </li>
+                    <li>
+                        <a class="fa fa-facebook grey-text text-lighten-3" href="https://www.facebook.com/LetranStreetDanceCrew">Facebook Page</a>
+                    </li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('.parallax').parallax();
+        $('.slider').slider();
+    });
+    </script> 
+</body>
+</html>
